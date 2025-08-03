@@ -1,0 +1,10 @@
+locale/*.md
+.vscode/
+archive/
+wiki/
+resources
+node_modules
+.lock
+/vendor
+composer.lock
+composer.phar

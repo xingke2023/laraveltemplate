@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sudo chown:*)",
+      "Bash(php artisan config:clear:*)",
+      "Bash(php artisan:*)",
+      "Bash(mysql:*)",
+      "Bash(npm run build:*)",
+      "Bash(composer:*)",
+      "Bash(rm:*)",
+      "Bash(APP_URL=https://paper.xingke888.com/ npm run build)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(chmod:*)",
+      "Bash(chown:*)",
+      "Bash(mkdir:*)",
+      "Bash(openssl rsa:*)",
+      "Bash(php:*)",
+      "Bash(kill:*)",
+      "Bash(curl:*)",
+      "Bash(systemctl status:*)",
+      "Bash(sudo systemctl start:*)",
+      "Bash(grep:*)",
+      "Bash(npm run types:*)"
+    ],
+    "deny": []
+  }
+}
